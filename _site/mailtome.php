@@ -18,9 +18,9 @@ Mail received from $name, at {$_POST["email"]}.
 
 {$_POST["textbody"]}
 EOM;
-    $headers = 'From: '."\r\n".
+    $headers = 'From: <the email address from which you're forwarding the user's form data>'."\r\n".
                'X-Mailer: PHP/'. phpversion();
-    $rc = mail('',
+    $rc = mail('chulwoo.pack@gmail.com',
                $_POST["subject"],
                $msg, $headers);
     if ($rc) {
