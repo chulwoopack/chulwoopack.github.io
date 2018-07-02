@@ -1152,7 +1152,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		.image {
 			@include vendor('order', '1');
 			border-radius: 0;
-			width: 40%;
+			width: 20%;
 			img {
 				border-radius: 0;
 				width: 100%;
@@ -1164,7 +1164,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 		}
 		.content-wrap {
-			width: 60%;
+			width: 80%;
 		}
 		&:nth-child(1n) {
 			text-align: right;
