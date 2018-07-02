@@ -11,7 +11,7 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: Chulwoo Mike Pack
+title: Chulwoo Mike Pack :-)
 description: Personal Blog
 owner:
   name: Chulwoo Mike Pack # or company name
@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome to my blog :-)  
-  text: My personal interest and research related material will be posted.
+  text: My personal interests and research related materials will be posted here.
 # - displayed at the bottom
 closing-head: Aloha
 closing-para: Feel free to reach me!
