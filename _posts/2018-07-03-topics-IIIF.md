@@ -27,10 +27,12 @@ from IPython.display import Image, display
 </code></pre>
 
 ### Example
-Request:<pre><code>r = requests.get("http://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202/info.json")
+Request:
+<pre><code>r = requests.get("http://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202/info.json")
 r.json()
 </code></pre>
-Output:<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
+Output:
+<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
  '@id': 'https://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202',
  'height': 4663,
  'profile': ['http://iiif.io/api/image/2/level2.json',
