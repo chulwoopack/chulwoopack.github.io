@@ -32,7 +32,7 @@ from IPython.display import Image, display
 r.json()
 </code></pre>
 Output:
-<code>{'@context': 'http://iiif.io/api/image/2/context.json',
+<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
  '@id': 'https://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202',
  'height': 4663,
  'profile': ['http://iiif.io/api/image/2/level2.json',
@@ -54,7 +54,7 @@ Output:
  'protocol': 'http://iiif.io/api/image',
  'tiles': [{'scaleFactors': [1, 2, 4, 8, 16, 32, 64], 'width': 512}],
  'width': 3156}
-</code>
-
+</code></pre>
+<hr />
 ## REFERENCE
 [Guide for IIIF](https://github.com/LibraryOfCongress/data-exploration/blob/master/IIIF.ipynb)
