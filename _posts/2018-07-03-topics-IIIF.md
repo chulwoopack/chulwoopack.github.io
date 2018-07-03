@@ -10,9 +10,9 @@ excerpt: Library of Congress IIIF API to manipulate images from Library of Congr
 
 ## URL?
 Each part of URL determines what and how the image is returned. To learn more in-depth please see [here](http://iiif.io/api/image/2.1/).
-{% highlight yaml %}
+<pre><code>
 {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
-{% endhighlight %}
+</code></pre>
 * scheme - Indicates the use of the HTTP or HTTPS protocol in calling the service.
 * server - The host server on which the service resides. The parameter may also include a port number.
 * prefix - The path on the host server to the service. This prefix is optional, but may be useful when the host server supports multiple services. The prefix may contain multiple path segments, delimited by slashes, but all other special characters must be encoded. See URI Encoding and Decoding for more information.
