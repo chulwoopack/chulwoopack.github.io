@@ -10,8 +10,7 @@ excerpt: Library of Congress IIIF API to manipulate images from Library of Congr
 
 ## URL?
 Each part of URL determines what and how the image is returned. To learn more in-depth please see [here](http://iiif.io/api/image/2.1/).
-<pre><code>
-{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
+<pre><code>{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 </code></pre>
 * scheme - Indicates the use of the HTTP or HTTPS protocol in calling the service.
 * server - The host server on which the service resides. The parameter may also include a port number.
@@ -28,11 +27,10 @@ from IPython.display import Image, display
 </code></pre>
 
 ### Example
-<pre><code>r = requests.get("http://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202/info.json")
+Request:<pre><code>r = requests.get("http://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202/info.json")
 r.json()
 </code></pre>
-Output:
-<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
+Output:<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
  '@id': 'https://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202',
  'height': 4663,
  'profile': ['http://iiif.io/api/image/2/level2.json',
