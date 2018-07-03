@@ -30,9 +30,8 @@ We are imagining doing this study across ALL images in Chronicling America. Then
 * "Warpedness" of images (as opposed to skew)
 
 ### Tools
-{% highlight yaml %}
-<a href="https://github.com/LibraryOfCongress/data-exploration/blob/master/Accessing%20images%20for%20analysis.ipynb">Chronicling America Images API</a>: Python script for building a master manifest of images and retrieving them.
-{% endhighlight %}
+[Chronicling America Images API](https://github.com/LibraryOfCongress/data-exploration/blob/master/Accessing%20images%20for%20analysis.ipynb): Python script for building a master manifest of images and retrieving them.
+
 
 
 
