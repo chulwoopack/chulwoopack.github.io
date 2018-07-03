@@ -15,10 +15,10 @@ title: Chulwoo Mike Pack
 description: Personal Blog
 owner:
   name: Chulwoo Mike Pack # or company name
-  url: "https://chulwoopack.github.io" # your URL
+  url: "https://chulwoopack.github.io/" # your URL
 first_published: 2018 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "https://chulwoopack.github.io" # the base hostname & protocol for this site
+url: "https://chulwoopack.github.io/" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
