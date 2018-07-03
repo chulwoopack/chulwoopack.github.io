@@ -1183,10 +1183,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		@include breakpoint(large) {
 			.image {
-				width: 45%;
+				width: 20%;
 			}
 			.content-wrap {
-				width: 60%;
+				width: 80%;
 			}
 		}
 
@@ -1196,7 +1196,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				display: none;
 			}
 			.image {
-				width: 100%;
+				display: none;
 			}
 			.content {
 				@include padding(4em, 3em);
