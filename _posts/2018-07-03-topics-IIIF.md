@@ -50,23 +50,26 @@ To learn more in-depth please see [here](https://chroniclingamerica.loc.gov/abou
 
 ### IPython Examples
 #### Import libraries
+```python
+from IPython.display import Image, display
+```
 <pre><code>import requests
 from IPython.display import Image, display
 </code></pre>
 
-#### Get JSON ()
+#### Get JSON
 <pre><code>r = requests.get("http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.json")
 r.json()
 </code></pre>
-Output:
-<pre><code>{u'issue': {u'date_issued': u'1900-01-05',
+<pre><code>OUTPUT:
+  {u'issue': {u'date_issued': u'1900-01-05',
   u'url': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1.json'},
- u'jp2': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.jp2',
- u'ocr': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.xml',
- u'pdf': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.pdf',
- u'sequence': 1,
- u'text': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.txt',
- u'title': {u'name': u'The Bourbon news.',
+  u'jp2': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.jp2',
+  u'ocr': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.xml',
+  u'pdf': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.pdf',
+  u'sequence': 1,
+  u'text': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.txt',
+  u'title': {u'name': u'The Bourbon news.',
   u'url': u'http://chroniclingamerica.loc.gov/lccn/sn86069873.json'}}
 </code></pre>
 
