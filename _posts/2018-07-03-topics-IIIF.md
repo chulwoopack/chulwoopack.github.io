@@ -12,6 +12,7 @@ excerpt: Library of Congress IIIF API to manipulate images from Library of Congr
 Each part of URL determines what and how the image is returned. To learn more in-depth please see [here](http://iiif.io/api/image/2.1/).
 <pre><code>{scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 </code></pre>
+
 * scheme - Indicates the use of the HTTP or HTTPS protocol in calling the service.
 * server - The host server on which the service resides. The parameter may also include a port number.
 * prefix - The path on the host server to the service. This prefix is optional, but may be useful when the host server supports multiple services. The prefix may contain multiple path segments, delimited by slashes, but all other special characters must be encoded. See URI Encoding and Decoding for more information.
@@ -22,39 +23,53 @@ Each part of URL determines what and how the image is returned. To learn more in
 * quality - The quality parameter determines whether the image is delivered in color, grayscale or black and white.
 * format - The format of the returned image is expressed as an extension at the end of the URI.
 
+## API for Chronicling America
+* `Server`
+{% highlight yaml %}
+http://chroniclingamerica.loc.gov/
+{% endhighlight %}
+* `Search` the newspaper directory and digitized page contents using `OpenSearch`. Example below searches "michigan", JSON response, starting at page 5.
+{% highlight yaml %}
+http://chroniclingamerica.loc.gov/search/titles/results/?terms=michigan&format=json&page=5 
+{% endhighlight %}
+* `URL pattern`. Example below shows third available page from first edition, January 5, 1900.
+{% highlight yaml %}
+http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-3/
+{% endhighlight %}
+* `Auto Suggest` API for looking up `newspaper titles`
+* `JSON` views of Chronicling America resources. Example below shows third available page from first edition, January 5, 1900.
+{% highlight yaml %}
+http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-3.json
+{% endhighlight %}
+* `Bulk Data` for `research` and external services. Below example shows detailed information about a specific batch.
+{% highlight yaml %}
+http://chroniclingamerica.loc.gov/batches/batch_dlc_jamaica_ver01.json 
+{% endhighlight %}
+
+To learn more in-depth please see [here](https://chroniclingamerica.loc.gov/about/api/)
+
+### IPython Examples
+#### Import libraries
 <pre><code>import requests
 from IPython.display import Image, display
 </code></pre>
 
-### Example
-Request:
-<pre><code>r = requests.get("http://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202/info.json")
+#### Get JSON ()
+<pre><code>r = requests.get("http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.json")
 r.json()
 </code></pre>
 Output:
-<pre><code>{'@context': 'http://iiif.io/api/image/2/context.json',
- '@id': 'https://tile.loc.gov/image-services/iiif/service:sgp:sgpbatches:batch_dlc_anacostia_ver01:data:sn84025948:0023728866A:1942081001:0202',
- 'height': 4663,
- 'profile': ['http://iiif.io/api/image/2/level2.json',
-  {'formats': ['jpg', 'jp2', 'tif', 'pdf', 'gif', 'png', 'webp'],
-   'qualities': ['default', 'native', 'color', 'gray', 'bitonal'],
-   'supports': ['baseUriRedirect',
-    'cors',
-    'jsonldMediaType',
-    'mirroring',
-    'regionByPct',
-    'regionByPx',
-    'rotationBy90s',
-    'sizeByWhListed',
-    'sizeByForcedWh',
-    'sizeByH',
-    'sizeByPct',
-    'sizeByW',
-    'sizeByWh']}],
- 'protocol': 'http://iiif.io/api/image',
- 'tiles': [{'scaleFactors': [1, 2, 4, 8, 16, 32, 64], 'width': 512}],
- 'width': 3156}
+<pre><code>{u'issue': {u'date_issued': u'1900-01-05',
+  u'url': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1.json'},
+ u'jp2': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.jp2',
+ u'ocr': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.xml',
+ u'pdf': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1.pdf',
+ u'sequence': 1,
+ u'text': u'http://chroniclingamerica.loc.gov/lccn/sn86069873/1900-01-05/ed-1/seq-1/ocr.txt',
+ u'title': {u'name': u'The Bourbon news.',
+  u'url': u'http://chroniclingamerica.loc.gov/lccn/sn86069873.json'}}
 </code></pre>
+
 <hr />
 ## REFERENCE
 [Guide for IIIF](https://github.com/LibraryOfCongress/data-exploration/blob/master/IIIF.ipynb)
