@@ -5,7 +5,7 @@ tags: featured
 excerpt: Survey
 ---
 
-## Intro
+## Introduction
 Degradations may result in a significant drop in the performance of Optical Character Recognition (OCR), as well as affect the performance of document image retrieval, layout analysis and other document analysis tasks. Document image quality studies are necessary ingredients in developing restoration and enhancement algorithms. It is important to understand the various types of degradations that may effect document images and develop reliable methods for estimating levels of degradations [1].
 
 ## Challenging issues
