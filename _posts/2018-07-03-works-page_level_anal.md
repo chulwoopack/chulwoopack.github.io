@@ -22,7 +22,7 @@ We are imagining doing this study across ALL images in Chronicling America. Then
 ### Characteristics
 * Contrast (inc. illumination gradient)
 * Density of text
-* Complexity of layout
+* Complexity of layout (*It might be related with reading-order*)
 * Washed out images
 * How noisy the image is
 * Potentially (because useful for zoning): Characters clean or broken (some concern about focusing on this as a first step, because it seems like it will be very slow going, but it will be good to discuss more)
