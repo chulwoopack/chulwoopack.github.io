@@ -20,7 +20,7 @@ The purpose it will be useful for is better understanding of the papers/images f
 We are imagining doing this study across ALL images in Chronicling America. Then we could also add the Burney Collection as a comparison. Our emphasis is not on building a generalizable tool for studying these features but rather on studying the features and analyzing them--to be able to say something useful about these collections now, as a primary focus.
 
 ### Characteristics
-* Contrast (inc. illumination gradient)
+* Contrast (inc. illumination gradient, *What image is considered to have good contrast?*)
 * Density of text
 * Complexity of layout (*It might be related with reading-order*)
 * Washed out images
