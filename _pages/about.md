@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Dr. Chulwoo Pack, an Assistant Professor at South Dakota State University (SDSU) in Brookings, SD, specializes in Electrical Engineering and Computer Science (EECS). He holds a Ph.D. in computer science from the University of Nebraska-Lincoln, obtained in 2023. Prior to that, he completed his BS and MS degrees at South Dakota State University in 2015 and 2017, respectively. The long-term vision for his research is to establish the fundamental framework for computer vision system to support human users. Progressing towards this vision, he has continued to grow his research in the following areas: image processing, document image analysis, visual question and answer, machine learning, and deep learning.
+Dr. Chulwoo Pack, an Assistant Professor at South Dakota State University (SDSU) in Brookings, SD, specializes in Electrical Engineering and Computer Science (EECS). He holds a Ph.D. in computer science from the University of Nebraska-Lincoln, obtained in 2023. Prior to that, he completed his BS and MS degrees at South Dakota State University in 2015 and 2017, respectively. The long-term vision for his research is to **establish the fundamental framework for computer vision system to support human users**. Progressing towards this vision, he has continued to grow his research in the following areas: **image processing**, **document image analysis**, **visual question and answer**, **machine learning**, and **deep learning**.
 
 
 <!--- 
