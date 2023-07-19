@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
-  image: bio_pic.jpg
+  image: bio_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>South Dakota State University</p>
