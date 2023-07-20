@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assitant Professor 
+subtitle: <a href='https://www.sdstate.edu/electrical-engineering-and-computer-science'>Department of Electrical Engineering and Computer Science</a> | <a href='https://www.sdstate.edu/'>South Dakota State University</a>
 
 profile:
   align: left
-  image: bio_pic.jpeg
+  image: bio_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>South Dakota State University</p>
-    <p>Daktronics Engineering Hall 129</p>
+    <p>DEH 129</p>
+    <p>1250 8th St</p>
     <p>Brookings, SD 57007</p>
 
 news: true  # includes a list of news items
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Dr. Chulwoo Pack, an Assistant Professor at South Dakota State University (SDSU) in Brookings, SD, specializes in Electrical Engineering and Computer Science (EECS). He holds a Ph.D. in computer science from the University of Nebraska-Lincoln, obtained in 2023. Prior to that, he completed his BS and MS degrees at South Dakota State University in 2015 and 2017, respectively. The long-term vision for his research is to **establish the fundamental framework for computer vision system to support human users**. Progressing towards this vision, he has continued to grow his research in the following areas: **image processing**, **document image analysis**, **visual question and answer**, **machine learning**, and **deep learning**.
+I am an Assistant Professor in the department of Electrical Engineering and Computer Science (EECS) at South Dakota State University. I received my Ph.D. in Computer Science from the [University of Nebraska-Lincoln](https://www.unl.edu/) under [Dr. Leen-Kiat Soh](https://cse.unl.edu/~lksoh/). Prior to that, I completed my BS and MS degrees at the South Dakota State University in 2015 and 2017, respectively. The long-term vision of my research is to **establish the fundamental framework for computer vision system to support human users**. Progressing towards this vision, I am actively conducting my research in the following areas: **image processing**, **document image analysis**, **visual question and answer**, **machine learning**, and **deep learning**.
 
 
 <!--- 
