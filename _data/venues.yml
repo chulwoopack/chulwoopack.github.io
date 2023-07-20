@@ -1,10 +1,3 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
 "JOCCH":
   url: https://dl.acm.org/journal/jocch
   color: "#5bc0de"
@@ -23,5 +16,9 @@
 
 "III":
   url: http://www.information-iii.org/
+  color: "#5cb85c"
+
+"COMPSAC":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000143/all-proceedings
   color: "#5cb85c"
 
