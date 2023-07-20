@@ -7,17 +7,21 @@
 
 "JOCCH":
   url: https://dl.acm.org/journal/jocch
-
-"RACS":
-  url: https://dl.acm.org/conference/racs
-
-"SAC":
-  url: https://dl.acm.org/conference/sac
-
-"III":
-  url: http://www.information-iii.org/
+  color: "#5bc0de"
 
 "JEI":
   url: https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging
+  color: "#5bc0de"
 
+"RACS":
+  url: https://dl.acm.org/conference/racs
+  color: "#5cb85c"
+
+"SAC":
+  url: https://dl.acm.org/conference/sac
+  color: "#5cb85c"
+
+"III":
+  url: http://www.information-iii.org/
+  color: "#5cb85c"
 
