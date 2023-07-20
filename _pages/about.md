@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='https://www.sdstate.edu/electrical-engineering-and-computer-science'>Department of Electrical Engineering and Computer Science</a> | <a href='https://www.sdstate.edu/'>South Dakota State University</a>
 
 profile:
-  align: left
+  align: right
   image: bio_pic.png
   image_circular: false # crops the image to make it circular
   address: >
