@@ -2,6 +2,10 @@
   url: https://link.springer.com/journal/10032
   color: "#5bc0de"
 
+"AHR":
+  url: https://academic.oup.com/ahr
+  color: "#5bc0de"
+
 "JOCCH":
   url: https://dl.acm.org/journal/jocch
   color: "#5bc0de"
