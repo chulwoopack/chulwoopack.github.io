@@ -1,17 +1,16 @@
 ---
 layout: page
-title: Research Group
 permalink: /members/
 description:
 nav: true
-nav_order: 2
+nav_order: 1
 display_categories: # [work, fun]
 horizontal: false
 ---
 
-# Intelligent Vision System Lab
+# **INTELLIGENT VISION SYSTEM LAB**
 
-## ![Picture](assets/img/blank_profile.png)
+## ![Picture](/assets/img/blank_profile.png)
 ### **Omeshamisu Anigala**
 **Position:** Ph.D. Student  
 **Research Area:** Video Anomaly Detection, Multimodal Learning, Explainable AI
