@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have recently been offered a position as Assistant Professor at South Dakota State University.
+🎉 I have recently been offered a position as Assistant Professor at South Dakota State University.

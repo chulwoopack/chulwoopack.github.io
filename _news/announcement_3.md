@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My work, "Weakly-supervised Semantic Segmentation on Historical Document Images" was accepted for publication in [ACM RACS 2023](https://www.sigapp.org/RACS/RACS2023/) conference.
+🎉 My work, "Weakly-supervised Semantic Segmentation on Historical Document Images" was accepted for publication in [ACM RACS 2023](https://www.sigapp.org/RACS/RACS2023/) conference.
