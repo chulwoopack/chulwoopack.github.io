@@ -1,14 +1,13 @@
 ---
 layout: page
 permalink: /members/
+title: Members
 description:
 nav: true
 nav_order: 1
 display_categories: # [work, fun]
 horizontal: false
 ---
-
-# **INTELLIGENT VISION SYSTEM LAB**
 
 ## ![Picture](/assets/img/blank_profile.png)
 ### **Omeshamisu Anigala**
@@ -17,14 +16,14 @@ horizontal: false
 
 ---
 
-## ![Picture](assets/img/blank_profile.png)
+## ![Picture](/assets/img/blank_profile.png)
 ### **Farzaneh Karimpour**
 **Position:** M.S. Student  
 **Research Area:** Image Quality Enhancement, Generative AI
 
 ---
 
-## ![Picture](assets/img/blank_profile.png)
+## ![Picture](/assets/img/blank_profile.png)
 ### **Harsh Dubey**
 **Position:** M.S. Student  
 **Research Area:** Video Summarization, Natural Language Processing, Generative AI

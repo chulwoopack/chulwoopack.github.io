@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎖️ Research grant awarded: USDA National Institute of Food and Agriculture, Women and Minorities in STEM Program.
+🎖️ **Research Grant** awarded: USDA National Institute of Food and Agriculture, Women and Minorities in STEM Program.
