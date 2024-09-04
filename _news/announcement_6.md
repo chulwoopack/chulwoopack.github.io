@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎖️ **Research Grant** awarded: USDA National Institute of Food and Agriculture, Women and Minorities in STEM Program.
+🎖️ **Research Grant** awarded: *USDA National Institute of Food and Agriculture*, Women and Minorities in STEM Program. Co-PI. $155,310. 2024-2026.
