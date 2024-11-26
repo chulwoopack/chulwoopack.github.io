@@ -29,3 +29,24 @@ horizontal: false
 ### **Harsh Dubey**
 **Position:** M.S. Student  
 **Research Area:** Video Summarization, Natural Language Processing, Generative AI
+
+---
+
+![Picture](/assets/img/blank_profile.png)
+### **Sugam Mishura**
+**Position:** M.S. Student  
+**Research Area:** Knowledge Graph, Video Question Answering
+
+---
+
+![Picture](/assets/img/blank_profile.png)
+### **Nikhil Chaudhary**
+**Position:** M.S. Student  
+**Research Area:** Knowledge Graph, Video Question Answering
+
+---
+
+![Picture](/assets/img/blank_profile.png)
+### **Hossein Erfanshekooh**
+**Position:** M.S. Student  
+**Research Area:** Retrieval Augmented Generation, Documeng Question Answering
