@@ -19,6 +19,13 @@ horizontal: false
 ---
 
 ![Picture](/assets/img/blank_profile.png)
+### **Ali Muktiar**
+**Position:** Ph.D Student  
+**Research Area:** Video Summarization, Parameter Efficient Fine Tuning, Generative AI
+
+---
+
+![Picture](/assets/img/blank_profile.png)
 ### **Farzaneh Karimpour**
 **Position:** M.S. Student  
 **Research Area:** Image Quality Enhancement, Generative AI

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Congratulations, Omesham, on your new role as a software engineer at the Office of Information Technology, SDSU!
+🎉 Congratulations, Omesham, on your new role as a software engineer at the *Office of Information Technology*, SDSU!
