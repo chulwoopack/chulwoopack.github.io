@@ -26,13 +26,6 @@ horizontal: false
 ---
 
 ![Picture](/assets/img/blank_profile.png)
-### **Farzaneh Karimpour**
-**Position:** M.S. Student  
-**Research Area:** Image Quality Enhancement, Generative AI
-
----
-
-![Picture](/assets/img/blank_profile.png)
 ### **Harsh Dubey**
 **Position:** M.S. Student  
 **Research Area:** Video Summarization, Natural Language Processing, Generative AI
@@ -57,3 +50,14 @@ horizontal: false
 ### **Hossein Erfanshekooh**
 **Position:** M.S. Student  
 **Research Area:** Retrieval Augmented Generation, Documeng Question Answering
+
+---
+
+![Picture](/assets/img/blank_profile.png)
+### **John Akujobi**
+**Position:** Undergraduate Student  
+**Research Area:** Multimodal Learning
+
+
+## Alumni:
+**Farzaneh Karimpour** (M.S.), 2024
