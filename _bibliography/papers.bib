@@ -8,8 +8,7 @@
 
   abbr={Tech. Report},
   blog={https://blogs.loc.gov/thesignal/2019/09/summer-of-machine-learning-collaboration-with-the-university-of-nebraska-lincoln/},
-  html={https://digitalcommons.unl.edu/libraryscience/396/},
-  selected={true}
+  html={https://digitalcommons.unl.edu/libraryscience/396/}
 }
 
 @inproceedings{pack2015computer,
@@ -51,8 +50,7 @@
 
   abbr={SAC},
   html={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P6AGgDgAAAAJ&citation_for_view=P6AGgDgAAAAJ:UeHWp8X0CEIC},
-  code={https://github.com/chulwoopack/MLP_using_DLR},
-  selected={true}
+  code={https://github.com/chulwoopack/MLP_using_DLR}
 }
 
 @article{pack2022augmentation,
@@ -64,6 +62,7 @@
   pages={1--21},
   year={2022},
   publisher={ACM New York, NY},
+  abstract = {The successful use of deep learning solutions for document image segmentation typically relies on a large number of manually labeled ground truth examples, which is expensive to obtain for historical document images that have significant noise effects and variation. At the same time, successful applications of deep learning solutions for document image segmentation have rich potential to facilitate greater levels of description in archival collections (e.g., at and below the item-level). These greater levels of description are critical to increasing access and use of archival collections across an array of research domains. In response, this article investigates whether an augmentation-based approach to generating pseudo-ground truth can be effective with a limited number of labeled images in a document segmentation application. The rationale is that if we can decrease the cost of generating ground truth through augmentation-based approaches, we can use these approaches as part of the description and access pipelines for historical library and archival collections. In this initial exploration, we first generate synthetic images and corresponding pseudo-ground truth using a set of existing degradation-based augmentation models from a small number of labeled actual images. When generating synthetic images, we control the visual quality distortion based on OCR word-level confidence to avoid generating images unlikely to be present in the dataset. Then, we perform several investigations to examine the impact of incorporating pseudo-ground truth data in the training of the deep learning network dhSegment and further evaluate the use of multiple combinations of degradation models. We also assess the generalizability of the approach by applying the trained network on a larger dataset. Our investigations primarily use real-world datasets known to have significant noise effects. Results show that augmentation-based pseudo-ground truth generation is capable of improving segmentation performance with the use of the full original dataset and requires only 30% of the original dataset. Results also show that using more than three degradation models is likely to cause overfitting during training. Furthermore, we show that a segmentation network trained on pseudo-ground truth data has generalization capability.},
 
   abbr={JOCCH},
   html={https://dl.acm.org/doi/abs/10.1145/3485845},
@@ -77,8 +76,7 @@
 
   abbr={Tech. Report},
   html={https://digitalcommons.unl.edu/cdrhgrants/7/},
-  supp={https://osf.io/u5twn/},
-  selected={true}
+  supp={https://osf.io/u5twn/}
 }
 
 @article{pack2017optimized,
@@ -119,6 +117,7 @@
   pages={063028--063028},
   year={2021},
   publisher={Society of Photo-Optical Instrumentation Engineers},
+  abstract = {Document layout analysis, or zoning, is important for textual content analysis such as optical character recognition. Zoning document images such as digitized historical newspaper pages are challenging due to noise and quality of the document images. Recently, effective data-driven approaches, such as leveraging deep learning, have been proposed, albeit with the concern of requiring larger training data and thus incurring additional cost of ground truthing. We propose a zoning solution by incorporating a knowledge-driven document representation, gravity map, into a multimodal deep learning framework to reduce the amount of time and data required for training. We first generate a gravity map for each image, considering the centroid distance and area between a cell in a Voronoi tessellation and its content to encode visual domain knowledge of a zoning task. Second, we inject the gravity maps into a deep convolution neural network (DCNN) during training, as an additional modality to boost performance. We report on two investigations using two state-of-the-art DCNN architectures and three datasets: two sets of historical newspapers and a set of born-digital contemporary documents. Evaluations show that our solution achieved comparable segmentation accuracy using fewer training epochs and less training data compared to a naïve training scheme.},
 
   abbr={JEI},
   html={https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-30/issue-6/063028/Visual-domain-knowledge-based-multimodal-zoning-for-textual-region-localization/10.1117/1.JEI.30.6.063028.short},
