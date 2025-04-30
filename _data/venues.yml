@@ -14,6 +14,9 @@
   url: https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging
   color: "#5bc0de"
 
+
+
+
 "RACS":
   url: https://dl.acm.org/conference/racs
   color: "#5cb85c"
@@ -30,3 +33,10 @@
   url: https://ieeexplore.ieee.org/xpl/conhome/1000143/all-proceedings
   color: "#5cb85c"
 
+"AAAI":
+  url: https://aaai.org/conference/aaai/
+  color: "#5cb85c"
+
+"ACR":
+  url: https://dl.acm.org/newsletter/sigapp
+  color: "#5cb85c"
