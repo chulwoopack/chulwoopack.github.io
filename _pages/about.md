@@ -7,7 +7,7 @@ subtitle: <a href='https://www.sdstate.edu/electrical-engineering-and-computer-s
 profile:
   align: right
   image: bio_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>DEH 129</p>
     <p>1250 8th St</p>
@@ -19,7 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor in the department of Electrical Engineering and Computer Science (EECS) at South Dakota State University. I received my Ph.D. in Computer Science from the [University of Nebraska-Lincoln](https://www.unl.edu/) under [Dr. Leen-Kiat Soh](https://cse.unl.edu/~lksoh/). Prior to that, I completed my BS and MS degrees at South Dakota State University in 2015 and 2017, respectively. The long-term vision of my research is to **establish the fundamental framework for computer vision system that enhance accessibility and discoverability in complex, large-scale data**. To advance this vision, I am actively conducting my research in the following areas: **document and video (multimedia) analysis**, **deep learning**, **multimodal learning**, and **visual reasoning**.
+I wam an Assistant Professor in the McComish Department of Electrical Engineering and Computer Science at South Dakota State University, where I lead the <a href="https://github.com/Multimodal-Intelligence-Lab"><i><span class="lab-highlight">M</span>ultimodal <span class="lab-highlight">Int</span>elligence Lab</i></a>. I received my Ph.D. in Computer Science from the [University of Nebraska-Lincoln](https://www.unl.edu/) under [Dr. Leen-Kiat Soh](https://cse.unl.edu/~lksoh/). Prior to that, I completed my B.S. from SDSU (dual-degree with the University of Ulsan) in 2015 and an M.S. from SDSU in 2017. 
+
+
+
+My research focuses on **scientific knowledge discovery from large-scale multimodal data**, aiming to answer: *how AI and human expertise can work together to unlock knowledge hidden in large-scale multimodal data, driving greater **accessibility** and **discoverability**?*
+
+To advance this vision, my work spans **information retrieval**, **multimodal learning**, **visual reasoning**, **multimedia analysis**, **knowledge graphs**, and **eXplainable AI**.
 
 
 <!--- 
