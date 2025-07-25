@@ -19,3 +19,24 @@ $max-content-width: {{ site.max_width }};
   color: darkgreen;
   font-weight: bold;
 }
+
+/* Member Card Styles */
+/* Optional: Adjust card size */
+.member-card {
+  max-width: 220px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.member-img-large {
+  width: 140px;
+  height: 190px;         /* Make the image taller */
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 0;      /* Remove bottom margin to bring image and text closer */
+}
+
+.member-card .card-body {
+  margin-top: 1.0em;     /* Push name and badges lower */
+  padding-top: 0.5em;
+}

@@ -1,0 +1,25 @@
+XAI:
+  color: "#007bff"
+Multimodal Learning:
+  color: "#6f42c1"
+Video Anomaly Detection:
+  color: "#28a745"
+Video Summarization:
+  color: "#e83e8c"
+RAG:
+  color: "#fd7e14"
+Vector Search:
+  color: "#17a2b8"
+NLP:
+  color: "#6610f2"
+Knowledge Graph:
+  color: "#e83e8c"
+VQA:
+  color: "#20c997"
+Image Quality Enhancement:
+  color: "#fd7e14"
+Diffusion:
+  color: "#6f42c1"
+GAN:
+  color: "#fd7e14"
+

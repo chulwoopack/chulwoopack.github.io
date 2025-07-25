@@ -1,0 +1,27 @@
+<!-- _includes/members.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="{{ member.website | default: member.url | relative_url }}" target="_blank" rel="noopener">
+    <div class="card hoverable member-card p-2">
+      {% if member.img %}
+        <img src="{{ member.img | relative_url }}" alt="member photo" class="card-img-top member-img-large"/>
+      {% endif %}
+      <div class="card-body p-2">
+        <h4 class="card-title mb-1" style="font-size:1.0em; ">{{ member.title }}</h4>
+        <h4 class="card-name mb-1" style="font-size:1.3em; font-weight:bold;">{{ member.name }}</h4>
+        {% if member.research_areas %}
+          <div class="mb-1">
+            {% for area in member.research_areas %}
+              {% assign area_data = site.data.research_areas[area] %}
+              {% if area_data and area_data.color %}
+                <abbr class="badge" style="background-color:{{ area_data.color }};font-size:0.7em;padding:0.1em 0.4em;">{{ area }}</abbr>
+              {% else %}
+                <abbr class="badge" style="font-size:0.7em;padding:0.1em 0.4em;">{{ area }}</abbr>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </a>
+</div>

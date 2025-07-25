@@ -1,15 +1,16 @@
 ---
 layout: page
-permalink: /lab/
+permalink: /memberss/
 title: Lab
 description:
 nav: true
 nav_order: 1
-display_categories: # [work, fun]
+display_categories: [Current, Alumni]
 horizontal: false
 ---
+ss
+<a href="https://github.com/Multimodal-Intelligence-Lab"><i><span class="lab-highlight">M</span>ultimodal <span class="lab-highlight">Int</span>elligence Lab</i></a>
 
-# Intelligent Vision System Lab
 ## Current Members:
 ![Picture](/assets/img/blank_profile.png)
 ### **Omeshamisu Anigala**
