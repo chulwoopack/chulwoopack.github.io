@@ -1,80 +1,63 @@
 ---
 layout: page
-title: Molecular Docking
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Drug Discovery and Molecular Docking
+description: AI-driven molecular docking enhanced with knowledge graphs and explainable AI for accelerated drug discovery.
+img: assets/img/12.jpg
+importance: 4
+category: Temp
+related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## Overview
+This project focuses on developing an AI-powered pipeline for **drug discovery** by integrating **molecular docking simulations**, **knowledge graph reasoning**, and **explainable AI (XAI)** techniques. Our goal is to accelerate lead compound identification and provide interpretable insights into protein-ligand interactions, enabling researchers to understand *why* certain drug candidates are predicted to be effective.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+
+## Key Objectives
+- Build an automated molecular docking framework powered by deep learning models.
+- Construct a domain-specific biomedical knowledge graph for drug-target relationships.
+- Integrate graph reasoning and link prediction for novel drug-target interaction discovery.
+- Develop XAI methods to provide human-understandable explanations for docking results and predictions.
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+## Methods & Approach
+- **Molecular Docking:** Use classical docking tools (AutoDock Vina, RDKit) enhanced by graph neural networks (GNNs) to predict binding affinities and pose ranking.
+- **Knowledge Graph:** Construct a large-scale drug-target-pathway knowledge graph using biomedical databases (DrugBank, ChEMBL).
+- **Reasoning:** Employ graph-based algorithms (e.g., R-GCN, TransE) for link prediction and candidate discovery.
+- **XAI:** Apply feature attribution (SHAP, Integrated Gradients) and attention-based visualization to interpret molecular features driving predictions.
+- **Evaluation:** Benchmark against known datasets (PDBBind, BindingDB) and compare with traditional docking approaches.
+
+
+
+## Current Progress
+<!-- - Built a prototype molecular docking pipeline combining AutoDock with GNN-based re-ranking. -->
+<!-- - Constructed a preliminary biomedical knowledge graph with 1M+ entities and 5M+ relations. -->
+<!-- - Integrated SHAP-based explanations to highlight molecular substructures influencing binding predictions. -->
+
+
+
+## Applications
+- Accelerated lead compound screening for drug discovery.
+- Discovery of novel drug-target interactions using graph reasoning.
+- Interpretable drug design to support medicinal chemistry and pharmacology research.
+
+
+
+## Team
+- **Principal Investigator:** Chulwoo Pack
+- **Graduate Students:** 
+- **Collaborators:** 
+
+
+
+## Related Publications
+- See related works: 
+
+
+
+## Resources
+- [GitHub Repository](#)
+- [Knowledge Graph Visualization](#)
+- [Docking Pipeline Documentation](#)
+

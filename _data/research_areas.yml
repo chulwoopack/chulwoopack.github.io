@@ -22,4 +22,9 @@ Diffusion:
   color: "#6f42c1"
 GAN:
   color: "#fd7e14"
+Signal Processing:
+  color: "#17a2b8"
+Security:
+  color: "#6610f2"
+  
 

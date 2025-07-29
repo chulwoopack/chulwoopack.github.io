@@ -514,8 +514,63 @@ footer.sticky-bottom {
   }
 
   .card {
+    figure {
+      margin: 0.3rem;
+    }
+
     img {
       width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .col {
+    margin-bottom: 2rem; /* Add some space between cards */
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+
+// Members
+
+.members {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -541,9 +596,72 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
+
+
+// Teaching
+
+.teaching {
+  h4.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .course-row {
+    display: flex;
+    align-items: stretch; /* make items equal in height */
+    gap: 1.5rem;          /* space between semester and course list */
+    margin-bottom: 1em;
+  }
+
+  .semester-pill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #fff;
+    min-width: 80px; /* keeps columns aligned */
+    text-align: center;
+  }
+
+  .semester-pill.fall {
+    background-color: #f4b77d; /* Fall color */
+  }
+
+  .semester-pill.spring {
+    background-color: #a8e6a1; /* Spring color */
+  }
+
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertically align text within */
+  }
+
+  .course-list p {
+    margin: 0.2em 0;
+  }
+
+  .course-pill {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+    margin-right: 6px;
+  }
+}
+
 
 
 // Publications

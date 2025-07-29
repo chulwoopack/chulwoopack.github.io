@@ -7,12 +7,53 @@ nav: true
 nav_order: 3
 ---
 
-South Dakota State University
-- [2025 Spring] CSC 492/592 Introduction to Deep Learning
-- [2024 Fall] CSC 770 Software Engineering
-- [2024 Spring] CSC 492/592 Computer Vision and Pattern Recognition
-- [2023 Fall] CSC 770 Software Engineering
+<div class="teaching">
 
-University of Nebraska-Lincoln
-- [2017 Fall] CSCE 428/828 Automata, Computation and Formal Languages
+  <!-- SDSU-->
+  <h4 class="category"><i class="fas fa-thumbtack" style="font-size: 0.7em;"></i> South Dakota State University</h4>
 
+  <div class="course-group">
+    <div class="course-row">
+      <span class="semester-pill fall">FA2025</span>
+      <span class="course-list">
+        <p><code>SE 305</code> Introduction to Deep Learning</p>
+        <p><code>CSC 792</code> Machine Learning Systems Design</p>
+      </span>
+    </div>
+    <div class="course-row">
+      <span class="semester-pill spring">SP2025</span>
+      <span class="course-list">
+        <p><code>CSC 492/592</code> Introduction to Deep Learning</p>
+      </span>
+    </div>
+    <div class="course-row">
+      <span class="semester-pill fall">FA2024</span>
+      <span class="course-list">
+        <p><code>CSC 770</code> Software Engineering Management</p>
+      </span>
+    </div>
+    <div class="course-row">
+      <span class="semester-pill spring">SP2024</span>
+      <span class="course-list">
+        <p><code>CSC 492/592</code> Computer Vision and Pattern Recognition</p>
+      </span>
+    </div>
+    <div class="course-row">
+      <span class="semester-pill fall">FA2023</span>
+      <span class="course-list">
+        <p><code>CSC 770</code> Software Engineering Management</p>
+      </span>
+    </div>
+  </div>
+
+  <!-- UNL -->
+  <h4 class="category"><i class="fas fa-thumbtack" style="font-size: 0.7em;"></i> University of Nebraska-Lincoln</h4>
+  <div class="course-group">
+    <div class="course-row">
+      <span class="semester-pill fall">FA2017</span>
+      <span class="course-list">
+        <p><code>CSCE 428/828</code> Automata, Computation and Formal Languages</p>
+      </span>
+    </div>
+  </div>
+</div>

@@ -1,27 +1,46 @@
 <!-- _includes/members.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="{{ member.website | default: member.url | relative_url }}" target="_blank" rel="noopener">
-    <div class="card hoverable member-card p-2">
-      {% if member.img %}
-        <img src="{{ member.img | relative_url }}" alt="member photo" class="card-img-top member-img-large"/>
-      {% endif %}
-      <div class="card-body p-2">
-        <h4 class="card-title mb-1" style="font-size:1.0em; ">{{ member.title }}</h4>
-        <h4 class="card-name mb-1" style="font-size:1.3em; font-weight:bold;">{{ member.name }}</h4>
-        {% if member.research_areas %}
-          <div class="mb-1">
-            {% for area in member.research_areas %}
-              {% assign area_data = site.data.research_areas[area] %}
-              {% if area_data and area_data.color %}
-                <abbr class="badge" style="background-color:{{ area_data.color }};font-size:0.7em;padding:0.1em 0.4em;">{{ area }}</abbr>
-              {% else %}
-                <abbr class="badge" style="font-size:0.7em;padding:0.1em 0.4em;">{{ area }}</abbr>
+<div>
+    <div class="card hoverable">
+      <div class="row no-gutters">
+        <div class="col-4 col-md-3 d-flex align-items-center justify-content-center">
+          {% if member.img %}
+            <img src="{{ member.img | relative_url }}" alt="member photo" class="card-img member-img-large"/>
+          {% endif %}
+        </div>
+        <div class="col-8 col-md-9">
+          <div class="card-body">
+            <h5 class="card-name mb-2" style="font-size:1.3em; font-weight:bold;">{{ member.name }}</h5>
+            <h6 class="card-subtitle mb-2">
+              <span class="text-muted" style="font-weight: 500; font-style: italic;">{{ member.title }}</span>
+              <span class="text-muted" style="font-size: 0.8em; font-weight: normal;"> ({{member.joined}}~{{member.graduated}})</span>
+            </h6>
+
+            <div>  
+              {% if member.email %}
+              <a href="mailto:{{ member.email }}" class="card-link">
+                <i class="fas fa-envelope"></i>
+              </a>
               {% endif %}
-            {% endfor %}
+              {% if member.git %}
+              <a href="{{ member.git }}" class="card-link" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i>
+              </a>
+              {% endif %}
+            </div>
+
+            <div>
+              {% for area in member.research_areas %}
+                {% assign area_data = site.data.research_areas[area] %}
+                {% if area_data and area_data.color %}
+                  <abbr class="badge" style="background-color:{{ area_data.color }};font-size:0.8em; padding:0.2em 0.4em;">{{ area }}</abbr>
+                {% else %}
+                  <abbr class="badge" style="font-size:0.7em;padding:0.1em 0.4em;">{{ area }}</abbr>
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
-        {% endif %}
+        </div>
       </div>
     </div>
-  </a>
+    <p></p>
 </div>

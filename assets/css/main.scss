@@ -15,28 +15,17 @@ $max-content-width: {{ site.max_width }};
   "cv"
 ;
 
-.lab-highlight {
-  color: darkgreen;
-  font-weight: bold;
+.mint-green {
+  color: #74A12E;
 }
 
-/* Member Card Styles */
-/* Optional: Adjust card size */
-.member-card {
-  max-width: 220px;
-  margin: 10px auto;
-  text-align: center;
+.post-title a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.member-img-large {
-  width: 140px;
-  height: 190px;         /* Make the image taller */
-  object-fit: cover;
-  border-radius: 5%;
-  margin-bottom: 0;      /* Remove bottom margin to bring image and text closer */
-}
-
-.member-card .card-body {
-  margin-top: 1.0em;     /* Push name and badges lower */
-  padding-top: 0.5em;
+.post-title a:hover {
+  color: inherit;
+  text-shadow: 0 0 5px rgba(56, 101, 16, 0.6);
+  text-decoration: none; /* Remove default underline */
 }

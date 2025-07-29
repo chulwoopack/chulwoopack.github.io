@@ -1,80 +1,37 @@
 ---
 layout: page
-title: Intelligent Construction Site Monitoring System
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: XAI + Video Monitoring
+description: This study proposes the development of an "XAI-integrated vision-based fall detection alert framework" designed to deliver practical and actionable insights tailored for enhancing construction site safety.
+img: assets/img/SD_logo_1.jpg
+importance: 1
+category: Active
+related_publications: 10.1145/3727257.3727258
 ---
+<h1 class="post-title">XAI + Construction Site Safety Monitoring System</h1>
+<p class="post-description">XAI-SMS: eXplainable AI-Integrated Construction Site Safety Monitoring System</p>
+## Summary
+<hr>
+This research aims to explore the practical effectiveness of existing Explainable AI (XAI) techniques in construction safety applications, with a focus on fall detection—one of the leading causes of workplace injuries. Despite the increasing adoption of AI-driven safety solutions, their opaque decision-making processes pose challenges in trust, usability, and regulatory compliance. To bridge this gap, this study proposes the development of an `XAI-integrated vision-based fall detection alert framework` designed to deliver practical and actionable insights tailored for enhancing construction site safety. The Craig and Diane Martin National Center for Construction Safety, University of Kansas, will support this project by facilitating real-world implementation and validation.
+The project will focus on generating preliminary findings on the practicality of an XAI-integrated vision-based safety monitoring system, emphasizing three widely used explainability approaches: feature saliency-based, perturbation-based, and concept-based explanations. This framework is designed to triangulate the construction safety insights, ensuring a comprehensive and interpretable understanding of safety risk. Stakeholder feedback from construction safety professionals will be collected to assess the practical utility and acceptance of XAI-driven alerts. 
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Funding Agency:**\\
+South Dakota State University <span class="text-muted small">| 2026 RSCA Challenge Fund</span>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Team:**\\
+Chulwoo Pack (PI) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
+Phuong Nguyen (Co-PI) <span class="text-muted small">| Construction & Concrete Industry Management, SDSU</span>\\
+Chien-Ho Ko (Collaborator) <span class="text-muted small">| Department of Civil, Environmental & Architectural Engineering University of Kansas</span>\\
+Omeshamisu Anigala (PhD Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Duration:**\\
+2025-2026
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Total Funding:**\\
+$15,000
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<hr>
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+**External Resources:**
+- Multimodal Video Anomaly Detection [Forthcoming](#)
+- XAI + Video Anomaly Detection [Forthcoming](#)
+- Multimidal Dataset Cleaning [Forthcoming](#)

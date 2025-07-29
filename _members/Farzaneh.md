@@ -1,7 +1,9 @@
 ---
 layout: page
-title: M.S. Student
+title: M.S.
 name: Farzaneh Karimpour
+joined: Fall 2023
+graduated: Fall 2024
 research_areas:
   - Image Quality Enhancement
   - Diffusion

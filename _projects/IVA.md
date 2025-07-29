@@ -1,81 +1,48 @@
 ---
-layout: distill
-title: Intelligent Video Analysis
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: einstein1956investigations, einstein1950meaning
+layout: page
+title: Video Comprehension
+description: This project focuses on building advanced algorithms for "intelligent video comprehension", enabling efficient search and retrieval of specific events across large, complex video datasets through Multimodal Learning (vision, language, and knowledge graphs) and Retrieval-Augmented Generation (RAG).
+img: assets/img/SD_logo_1.jpg
+importance: 2
+category: Active
+related_publications: dubey2025leveraging, 10.1145/3727257.3727258
 ---
+<h1 class="post-title">Video Comprehension</h1>
+<p class="post-description">Toward a World Model: Building a Foundational Video Understanding Model</p>
+## Summary
+<hr>
+This project focuses on building advanced algorithms for `intelligent video comprehension`, enabling efficient search and retrieval of specific events across large, complex video datasets through Multimodal Learning (vision, language, and knowledge graphs) and Retrieval-Augmented Generation (RAG).
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Funding Agency:**\\
+South Dakota State University <span class="text-muted small">| Startup Fund</span>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Team:**\\
+Chulwoo Pack (PI) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
+Harsh Dubey (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
+Muktiar Ali (Ph.D. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
+Sugam Mishura (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
+Omeshamisu Anigala (Ph.D. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Duration:**\\
+2023-2026
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Total Funding:**\\
+$73,000
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<hr>
+
+**External Resources:**
+- Video Comprehension Score (VCS) <a href="https://github.com/Multimodal-Intelligence-Lab/Video-Comprehension-Score" class="card-link" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i>
+</a>
+- Dense Caption Dataset (CLIP-CC) <a href="https://github.com/Multimodal-Intelligence-Lab/CLIP-CC" class="card-link" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i>
+</a>
+- Dense Caption Generator [Forthcoming](#)
+- Multimodal Video Anomaly Detection [Forthcoming](#)
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
