@@ -7,7 +7,7 @@ subtitle: <a href='https://www.sdstate.edu/electrical-engineering-and-computer-s
 profile:
   align: right
   image: bio_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>DEH 129</p>
     <p>1250 8th St</p>
