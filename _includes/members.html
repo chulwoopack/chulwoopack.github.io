@@ -26,6 +26,21 @@
                 <i class="fab fa-github"></i>
               </a>
               {% endif %}
+              {%- if member.linkedin_username -%}
+              <a href="https://www.linkedin.com/in/{{ member.linkedin_username }}" class="card-link" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              {% endif %}
+              {%- if member.scholar_userid -%}
+              <a href="https://scholar.google.com/citations?user={{ member.scholar_userid }}" class="card-link" target="_blank" rel="noopener">
+                <i class="ai ai-google-scholar"></i>
+              </a>
+              {% endif %}
+              {%- if member.orcid_id -%}
+                <a href="https://orcid.org/{{ member.orcid_id }}" class="card-link" target="_blank" rel="noopener">
+                  <i class="ai ai-orcid"></i>
+                </a>
+              {% endif %}
             </div>
 
             <div>
