@@ -16,7 +16,7 @@ nav_order: 3
     <div class="course-row">
       <span class="semester-pill fall">FA2025</span>
       <span class="course-list">
-        <p><code>SE 305</code> Introduction to Deep Learning</p>
+        <p><code>SE 305</code> Foundations of Software Engineering</p>
         <p><code>CSC 792</code> Machine Learning Systems Design</p>
       </span>
     </div>
