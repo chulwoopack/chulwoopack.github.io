@@ -10,7 +10,7 @@ research_areas:
   - RAG
   - Vector Search
 img: assets/img/12.jpg
-importance: 2
+importance: 1
 category: Ph.D.
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---

@@ -7,9 +7,8 @@ joined: Fall 2024
 research_areas:
   - Knowledge Graph
   - RAG
-  - VQA
 img: assets/img/12.jpg
-importance: 7
+importance: 1
 category: Master
 related_publications: 
 ---
