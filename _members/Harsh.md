@@ -3,6 +3,7 @@ layout: page
 title: M.S. Student
 name: Harsh Dubey
 joined: Spring 2024
+graduated: Summer 2025
 email: harsh.dubey@jacks.sdstate.edu
 git: https://github.com/hdubey-debug
 research_areas:

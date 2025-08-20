@@ -6,7 +6,6 @@ joined: Fall 2024
 email: Abdolhossein.Erfanshekooh@jacks.sdstate.edu
 research_areas:
   - RAG
-  - VQA
   - Vector Search
 img: assets/img/12.jpg
 importance: 1

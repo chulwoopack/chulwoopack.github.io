@@ -14,6 +14,12 @@ NLP:
   color: "#6610f2"
 Knowledge Graph:
   color: "#e83e8c"
+Knowledge Tracing:
+  color: "#20c997"
+HITL:
+  color: "#007bff"
+Continual Learning:
+  color: "#6f42c1" 
 VQA:
   color: "#20c997"
 Image Quality Enhancement:
