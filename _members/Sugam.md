@@ -10,7 +10,7 @@ research_areas:
   - RAG
   - VQA
 img: assets/img/12.jpg
-importance: 4
+importance: 1
 category: Master
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---

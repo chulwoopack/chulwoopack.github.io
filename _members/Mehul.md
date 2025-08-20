@@ -1,13 +1,11 @@
 ---
 layout: page
 title: M.S. Student
-name: Hossein Erfanshekooh
-joined: Fall 2024
-email: Abdolhossein.Erfanshekooh@jacks.sdstate.edu
+name: Mehul Deep
+joined: Fall 2025
+email: Mehul.Deep@jacks.sdstate.edu
 research_areas:
-  - RAG
-  - VQA
-  - Vector Search
+  - Deep Knowledge Tracing
 img: assets/img/12.jpg
 importance: 1
 category: Master

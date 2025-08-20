@@ -10,7 +10,7 @@ research_areas:
   - NLP
   - Multimodal Learning
 img: assets/img/12.jpg
-importance: 3
-category: Master
+importance: 1
+category: Alumni
 related_publications: 
 ---
