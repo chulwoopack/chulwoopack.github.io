@@ -6,7 +6,7 @@ description: This study explore the development of AI-driven molecular docking e
 img: assets/img/SD_logo_1.jpg
 importance: 1
 category: Active
-related_publications: 10.1145/3727257.3727258
+related_publications: 
 ---
 <h1 class="post-title">XAI + Molecular Docking</h1>
 <p class="post-description">Establishing Infrastructure for AI-Driven Discovery of Small Molecules to Combat Antibiotic Resistance, Biofilms, and Aflatoxin Contamination</p>
