@@ -1,6 +1,6 @@
 ---
 layout: page
-title: XAI + Molecular Docking
+title: AI-driven Molecular Docking
 description: This study explore the development of AI-driven molecular docking enhanced with knowledge graphs and XAI for accelerated drug discovery.
 
 img: assets/img/SD_logo_1.jpg
@@ -8,7 +8,7 @@ importance: 1
 category: Active
 related_publications: 
 ---
-<h1 class="post-title">XAI + Molecular Docking</h1>
+<h1 class="post-title">AI-driven Molecular Docking</h1>
 <p class="post-description">Establishing Infrastructure for AI-Driven Discovery of Small Molecules to Combat Antibiotic Resistance, Biofilms, and Aflatoxin Contamination</p>
 ## Summary
 <hr>
