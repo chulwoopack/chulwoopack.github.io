@@ -2,8 +2,8 @@
 layout: page
 title: Ph.D. Student
 name: Muktiar Ali
-email: Mukhtiar.Ali@jacks.sdstate.edu
 joined: Fall 2024
+email: Mukhtiar.Ali@jacks.sdstate.edu
 git: https://github.com/GitAliGator
 research_areas:
   - Video Summarization

@@ -3,6 +3,7 @@ layout: page
 title: M.S. Student
 name: Sugam Mishura
 joined: Fall 2024
+graduated: Fall 2025
 email: Sugam.Mishra@jacks.sdstate.edu
 git: https://github.com/infinitysugam
 research_areas:
@@ -10,6 +11,6 @@ research_areas:
   - RAG
 img: assets/img/12.jpg
 importance: 1
-category: Master
+category: Alumni
 related_publications: 
 ---
