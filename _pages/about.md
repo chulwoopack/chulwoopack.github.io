@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.sdstate.edu/electrical-engineering-and-computer-science'>McComish Department of Electrical Engineering and Computer Science</a> | <a href='https://www.sdstate.edu/'>South Dakota State University</a>
+subtitle: <a href='https://www.sdstate.edu/mccomish-electrical-engineering-computer-science'>McComish Department of Electrical Engineering and Computer Science</a> | <a href='https://www.sdstate.edu/'>South Dakota State University</a>
 
 profile:
   align: right

@@ -4,7 +4,7 @@ title: Intelligent Tutoring System
 description: This project focuses on building advanced algorithms for "intelligent video comprehension", enabling efficient search and retrieval of specific events across large, complex video datasets through Multimodal Learning (vision, language, and knowledge graphs) and Retrieval-Augmented Generation (RAG).
 img: assets/img/SD_logo_1.jpg
 importance: 3
-category: Active
+category: Inactive
 related_publications: zhao2022intelligent
 ---
 <h1 class="post-title">Intelligent Tutoring System</h1>
