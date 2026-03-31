@@ -1,15 +1,14 @@
 ---
 layout: page
 title: M.S. Student
-name: Nikhil Chaudhary
-email: Nikhil.Chaudhary@jacks.sdstate.edu
-joined: Fall 2024
+name: Mehul Deep
+joined: Fall 2025
+email: Mehul.Deep@jacks.sdstate.edu
 research_areas:
   - Knowledge Graph
-  - RAG
-  - VQA
+  - Knowledge Tracing
 img: assets/img/12.jpg
-importance: 7
+importance: 1
 category: Master
 related_publications: 
 ---

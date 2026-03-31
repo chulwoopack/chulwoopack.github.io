@@ -22,6 +22,7 @@ Muktiar Ali (Ph.D. Student) <span class="text-muted small">| McComish Dept. of E
 Hossein Erfanshekooh (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
 Sugam Mishura (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>\\
 Nikhil Chaudhary (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
+Mehul Deep (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
 
 **Duration:**\\
 2023-2026

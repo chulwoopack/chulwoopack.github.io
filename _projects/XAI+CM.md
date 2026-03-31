@@ -22,6 +22,7 @@ Chulwoo Pack (PI) <span class="text-muted small">| McComish Dept. of EECS, SDSU<
 Phuong Nguyen (Co-PI) <span class="text-muted small">| Construction & Concrete Industry Management, SDSU</span>\\
 Chien-Ho Ko (Collaborator) <span class="text-muted small">| Department of Civil, Environmental & Architectural Engineering University of Kansas</span>\\
 Omeshamisu Anigala (PhD Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
+Preethi Amasa (M.S. Student) <span class="text-muted small">| McComish Dept. of EECS, SDSU</span>
 
 **Duration:**\\
 2025-2026

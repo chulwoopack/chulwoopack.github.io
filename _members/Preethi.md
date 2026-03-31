@@ -1,12 +1,12 @@
 ---
 layout: page
 title: M.S. Student
-name: Hossein Erfanshekooh
-joined: Fall 2024
-email: Abdolhossein.Erfanshekooh@jacks.sdstate.edu
+name: Preethi Amasa
+joined: Fall 2025
+email: Preethi.Amasa@jacks.sdstate.edu
 research_areas:
-  - RAG
-  - Vector Search
+  - Continual Learning
+  - HITL
 img: assets/img/12.jpg
 importance: 1
 category: Master
