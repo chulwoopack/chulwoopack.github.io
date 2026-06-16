@@ -16,7 +16,6 @@
 
 
 
-
 "RACS":
   url: https://dl.acm.org/conference/racs
   color: "#5cb85c"
@@ -35,6 +34,18 @@
 
 "AAAI":
   url: https://aaai.org/conference/aaai/
+  color: "#5cb85c"
+
+"CVPR":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000147/all-proceedings/
+  color: "#5cb85c"
+
+"CVPRW":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000147/all-proceedings/
+  color: "#5cb85c"
+
+"SIGIR":
+  url: https://sigir.org/
   color: "#5cb85c"
 
 "ACR":
